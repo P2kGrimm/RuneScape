@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/background2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 0 20px;
+    background-color: #141D24;
+}
+
+header {
+    text-align: right;
+    padding: 10px 20px;
+    background: url('images/cracks_bottom_1920.jpg') no-repeat center bottom;
+    background-size: cover;
+    position: relative;
+    height: 60px;
+    color: #141D24
+}
+
+.site-link {
+    text-decoration: none;
+    display: block;
+    color: #ffc107;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.ir-para-o {
+    display: block;
+    color: #fff;
+}
+
+.site-completo {
+    display: block;
+    color: #ffc107;
+}
+
+.main-content {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 60px;
+    margin: 0 10px;
+    background: linear-gradient(to bottom, #ffcc66, #ff9900);
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #000;
+    box-shadow: inset 0 0 5px #000, 3px 3px 0 #000;
+    font-size: 18px;
+    position: relative;
+    text-transform: uppercase;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn::before, .btn::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url('corner-image.png') no-repeat center center;
+    background-size: contain;
+}
+
+.btn::before {
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn::after {
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #e68900, #cc7a00);
+    box-shadow: inset 0 0 5px #000, 5px 5px 0 #000;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 80%;
+    text-align: center;
+}
+
+.description h2, .description h1 {
+    margin: 10px 0;
+}
+
+.description h2.white-text {
+    color: #fff;
+}
+
+.description h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f4b000;
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.description::before, .description::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #ffc107;
+    margin: 10px auto;
+}
+
+.description::before {
+    margin-top: -10px;
+}
